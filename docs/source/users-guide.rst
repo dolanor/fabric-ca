@@ -296,7 +296,7 @@ file, we can use a command line flag.
   fabric-ca-client enroll --tls.client.certfile cert3.pem
 
 The same approach applies to fabric-ca-server, except instead of using
-``FABIRC_CA_CLIENT`` as the prefix to environment variables,
+``FABRIC_CA_CLIENT`` as the prefix to environment variables,
 ``FABRIC_CA_SERVER`` is used.
 
 .. _server:
@@ -373,7 +373,7 @@ section that can be configured. The following is a sample CSR.
 .. code:: yaml
 
    cn: fabric-ca-server
-   names:
+     names:
       - C: US
         ST: "North Carolina"
         L:
