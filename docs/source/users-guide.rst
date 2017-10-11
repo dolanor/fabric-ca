@@ -104,7 +104,7 @@ Prerequisites
 
 -  Go 1.9+ installation
 -  ``GOPATH`` environment variable is set correctly
-- libtool and libtdhl-dev packages are installed
+- libtool and libltdl-dev packages are installed
 
 The following installs the libtool dependencies on Ubuntu:
 
